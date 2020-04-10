@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="79403" started-at="2020-04-10T00:04:48Z" finished-at="2020-04-10T00:06:07Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.HomepageTest@38425407]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.LoginTest@54d9d12d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.HomepageTest@5bda8e08]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.LoginTest@3eb738bb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="44068" started-at="2020-04-10T00:04:48Z" finished-at="2020-04-10T00:05:32Z">
+      <class name="com.usa.Runner.LoginTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.usa.Runner.LoginTest@54d9d12d]" name="setUpClass" is-config="true" duration-ms="261" started-at="2020-04-10T00:04:48Z" finished-at="2020-04-10T00:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.LoginTest@54d9d12d]" name="feature" duration-ms="25942" started-at="2020-04-10T00:04:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T00:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should able to login successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.usa.Runner.LoginTest@54d9d12d]" name="tearDownClass" is-config="true" duration-ms="24" started-at="2020-04-10T00:05:14Z" finished-at="2020-04-10T00:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.usa.Runner.LoginTest -->
+      <class name="com.usa.Runner.HomepageTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.usa.Runner.HomepageTest@38425407]" name="setUpClass" is-config="true" duration-ms="32" started-at="2020-04-10T00:05:14Z" finished-at="2020-04-10T00:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.HomepageTest@38425407]" name="feature" duration-ms="17476" started-at="2020-04-10T00:05:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T00:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should be able to search property]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.usa.Runner.HomepageTest@38425407]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2020-04-10T00:05:32Z" finished-at="2020-04-10T00:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.usa.Runner.HomepageTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="34953" started-at="2020-04-10T00:05:32Z" finished-at="2020-04-10T00:06:07Z">
+      <class name="com.usa.Runner.LoginTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.usa.Runner.LoginTest@3eb738bb]" name="setUpClass" is-config="true" duration-ms="16" started-at="2020-04-10T00:05:32Z" finished-at="2020-04-10T00:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.LoginTest@3eb738bb]" name="feature" duration-ms="18876" started-at="2020-04-10T00:05:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T00:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should able to login successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.usa.Runner.LoginTest@3eb738bb]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2020-04-10T00:05:51Z" finished-at="2020-04-10T00:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.usa.Runner.LoginTest -->
+      <class name="com.usa.Runner.HomepageTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.usa.Runner.HomepageTest@5bda8e08]" name="setUpClass" is-config="true" duration-ms="25" started-at="2020-04-10T00:05:51Z" finished-at="2020-04-10T00:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.Runner.HomepageTest@5bda8e08]" name="feature" duration-ms="15977" started-at="2020-04-10T00:05:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T00:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should be able to search property]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.usa.Runner.HomepageTest@5bda8e08]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2020-04-10T00:06:07Z" finished-at="2020-04-10T00:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.usa.Runner.HomepageTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
