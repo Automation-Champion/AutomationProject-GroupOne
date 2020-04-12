@@ -11,13 +11,6 @@
   <class name = "com.usa.Runner.HomepageTest"/>
   </classes>
   </test>  
-  <test name="FirefoxTest">
-  <parameter name="browser" value="Firefox" />
-  <classes>
-  <class name = "com.usa.Runner.LoginTest"/>
-  <class name = "com.usa.Runner.HomepageTest"/>
-  </classes>
-  </test>  
 </suite>
 
 
